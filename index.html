@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HBD!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="blackfade">
+  <p id="volume-warning">Please turn up your volume</p>
+</div>
+
+<audio id="steps" src="./assets/steps.wav"></audio>
+<audio id="bgm" src="./assets/bgm.mp3" loop></audio>
+<audio id="jumpscare-sound" src="./assets/jumpscare.mp3"></audio>
+
+<div id="jumpscare">
+  <img id="jumpscare-image" src="./assets/jumpscare.png" />
+</div>
+
+<div id="birthday-screen">
+  <img id="birthday-image" src="./assets/birthday.png" />
+</div>
+
+<div id="dialogue-container">
+    <div id="dialogue-box">
+        <img id="avatar" src="./assets/avatar.png" />
+        <p id="dialogue-text"></p>
+    </div>
+</div>
+
+<img id="dorapic" src="./assets/dora.png">
+
+<div id="test1" style="display:none;">
+  <p id="sentence1">"Hi! Can I talk to you about saving <b>HAPPY</b>?"</p>
+
+  <button class="choice1">Word 1</button>
+  <button class="choice1">Word 2</button>
+  <button class="choice1">Word 3</button>
+</div>
+
+<div id="test2" style="display:none;">
+  <p id="sentence2">"I just wanted to tell you how you can contribute to <b>BIRTHDAY</b> all around the globe."</p>
+
+  <button class="choice2">Word 1</button>
+  <button class="choice2">Word 2</button>
+  <button class="choice2">Word 3</button>
+</div>
+
+<div id="test3" style="display:none;">
+  <p id="sentence3">"Oh, that’s really generous of you! Do you know about our new campaign to save the <b>ASHLEY</b>"</p>
+
+  <button class="choice3">Word 1</button>
+  <button class="choice3">Word 2</button>
+  <button class="choice3">Word 3</button>
+</div>
+
+<audio id="birthday-bgm" src="./assets/birthday.mp3" loop></audio>
+
+<script src="chat.js"></script>
+</body>
+</html>
