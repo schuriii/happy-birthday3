@@ -160,7 +160,7 @@ const dialogues = [
     birthdayMode: true
   },
   {
-    text: "I hope you enoy your day!",
+    text: "I hope you enjoy your day!",
     avatar: "./assets/avatar.png",
     speed: 30
   },
@@ -727,4 +727,5 @@ function playWrongDialogue(returnPrompt) {
   }
 
   playNext();
+
 }
